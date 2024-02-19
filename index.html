@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta name="viewport" content="with=device-width,initial-sacle=1.0">
+
+     <title> QwikServ E-Commerce Website </title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&
+family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/My Logo.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <!--<li><a href="">ABOUT PAGE</a></li>-->
+                    <li><a href="about.html" target="_blank">ABOUT PAGE</a></li>
+                    <li><a href="contact.html" target="_blank">CONTACT PAGE</a></li>
+
+                </ul>
+            </div>
+         
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+            
+        </nav>
+
+        <div class="text-box">
+            <h2>Welcome to QwikServ - Your One-Stop Destination for Quick and Convenient Shopping! </h2>
+            <p>QwikServ is online service to provide different products to purchase with affordable price with adding high Quality ...</p>
+            <br>
+            <a href="" class="btn">Visit Us To know More</a>
+        </div>
+    </section>
+
+
+  <!------ <Categories------->
+
+    <section class="Categories">
+ 
+                        <h2>Categories we offering right now</h2>
+                        <p>Pooja Items, Fresh-Vegetables & Fruits ,Grocery </p>
+                        <div class="row">
+                            <div class="categories-col">
+                                <h3>Pooja Items</h3>
+                        <p>🌺 Pooja Essentials: Elevate your spiritual journey with our premium pooja items.</p>
+                            </div>
+
+                            <div class="categories-col">
+                                <h3>Fresh-Vegetables & Fruits </h3>
+                        <p>🍇 Fresh Produce: Handpicked fruits and vegetables for a healthy lifestyle.</p>
+                            </div>
+
+
+                            <div class="categories-col">
+                                <h3>Grocery</h3>
+                        <p>🛒 Grocery Galore: From pantry staples to gourmet treats - we have your grocery needs covered!</p>
+                            </div>
+
+                        </div>
+
+    </section>
+
+    <section class="Listofitems">
+
+        <h2> Our All Category Pages </h2>
+        <p>Click One by One you want to see...</p>
+
+        <div class="row">
+          <div class="Listofitems-col">
+            <img src="images/All pooja items.png">
+            <div class="layer">
+                 <h3>Pooja Items</h3>
+            </div>
+          </div>
+
+
+          <div class="Listofitems-col">
+            <img src="images/Veg.jpg">
+            <div class="layer">
+                 <h3>vegetables & Fruits </h3>
+            </div>
+          </div>
+
+
+          <div class="Listofitems-col">
+            <img src="images/Groceries.jpg">
+            <div class="layer">
+                 <h3>Groceries</h3>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-----Footer-->
+      <!---- <Section class="footer">
+
+             <h4>About Us</h4>
+             <p>QwikServ is online Supermarket <br> you will purchase items on this App with good Quality & Reasonable Prices</p>
+
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+             </div>
+             <p>Made with <i class="fa fa-heart-o">Shopping Made Easy</i> </p>
+
+    </Section>---->
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App for Android and ios mobile Applications</p>
+                    <div class="app-logo">
+                        <img src="images/PlayStore img.png">
+                        <img src="images/App-store img.png">
+
+
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/My Logo.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Customers to Access our Site/App</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3> Useful Links</h3>
+                    <ul>
+                        <li><a href="about.html" target="_blank">About Us</a></li>
+                        <li><a href="Terms&Conditions.html" target="_blank">Terms & Conditions</a></li>
+                        <li><a href="Return Policy.html" target="_blank">Return Policy</a></li>
+                        <li><a href="Privacy Policy.html" target="_blank">Privacy Policy</a></li>
+
+                    
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3> Follow Us </h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+            <p class="copyright">Copyright 2024 - QwikServ</p>
+        </div>
+    </div>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0"
+
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px"
+
+        }
+
+
+    </script>
+</body>
+</html>

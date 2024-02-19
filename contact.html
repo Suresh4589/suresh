@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Contact Page </title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body bgcolor ="#8b8b8b">
+    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    <a href="index.html" target="_blank" >Home </a> &nbsp;
+    <a href="contact.html" target="_blank" >Contact Page </a>&nbsp;
+    <a href="about.html" target="_blank" >About Page </a>
+
+  <br> <br>
+
+    <h2> This is Contact Page ....</h2>
+
+    <br> <br>
+
+    <div class="con-info" >
+        
+        <form id="form">
+        <h3> Enter Your Details for Delivery Purpose</h3>
+        <label> Customer Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </label>
+        <input type="text" id="username"  placeholder="Enter Your name"> <br><br>
+
+        <label> Customer Mobile No :    </label>&nbsp;&nbsp;&nbsp;
+        <input type="text"  id="usernumber" placeholder="Enter Your number"></label>&nbsp;&nbsp;&nbsp; <br><br>
+        <br>
+        <br>
+        <input type="Submit" value="Register">
+
+    </form>
+
+    </div>
+
+    <div class="contact-info">
+        <h3> Contact Information </h3>
+        <label> My Number  :</label><p>7780460743</p>
+        <label> My Address :</label><p>drno 2-213 Aphb Colony<br>
+         Rajahmundry. <br>
+         pincode 533106.</p>
+    </div>
+
+</body>
+
+<script>
+
+var form = document.getElementById('form')
+
+form.addEventListener('Submit',function(Event){
+         event.preventDefault() 
+
+         var username = document.getElementById('username').value;
+         console.log(username);
+
+         var usernumber =document.getElementById('usernumber').value;
+         console.log(usernumber);
+})
+
+</script>
+
+</html>
